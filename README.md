@@ -5,6 +5,14 @@ penjumlahan, pengurangan, perkalian dan pembagian.  Untuk menjalankan aplikasi i
 
 Ketelitian pada hasil kalkulator ini adalah sampai sepuluh digit angka berarti. Untuk menambah ketelitian hasil dapat dilakukan dengan menambah digit tersembunyi. Digit tersembunyi berguna untuk mengurangi kesalahan akibat adanya pembulatan jika variabel penyimpan tidak cukup untuk menyimpan hasil dari fungsi.
 
+# Penggunaan Layout Aplikasi
+Pada layout aplikasi kalkulator, kita menggunakan layout LinearLayout. Linear Layout merupakan layout yang berfungsi untuk menampilkan komponen-komponen aplikasi contohnya : teks, tombol, gambar dan lainnya dengan cara vertikal ataupun horizontal. Di LinearLayout, instance View child diatur satu per satu sehingga list horizontal hanya akan memiliki satu baris dengan beberapa kolom dan list vertikal akan memiliki satu kolom yang terdiri dari beberapa baris.Untuk aplikasi yang memiliki design tidak terlalu kompleks maka linear layout sangat cocok untuk digunakan. 
+- [x] Orientation -> untuk mengatur orientasi untuk ditampilkan secara horizontal atau vertikal, sehingga item muncul dalam satu kolom atau satu baris. 
+- [x] Gravity -> Tag gravity digunakan untuk mengatur tata letak komponen yang ada pada linear layout.
+- [x] Weight -> Weight digunakan untuk memberikan bobot pada komponen layout. Pada penggunaannya juga dapat digunakan jika salah satu layout width atau layout height bernilai 0, agar idak terjadi error. 
+- [x] Button -> Button juga terdapat atribut onClick yang berisi fungsi fungsional dari kalkulator seperti hasil perhitungan, menghapus data yang telah di hitung, dan digit angka yang akan di hitung. 
+
+
 # Tampilan Kalkulator
 ![Screenshot_20201023-201618_MyScientificCalculator (1)](https://user-images.githubusercontent.com/60589670/97011200-911c3f00-1570-11eb-8fb2-c02ecdf39899.jpg)
 
